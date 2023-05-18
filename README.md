@@ -6,6 +6,7 @@
    > GRUPA: 325CD
 
 **Rezolvarea problemelor**
+
    > **Problema 1**
    
  În rezolvarea acestei probleme am ales să folosesc un algoritm care verifică dacă există un ciclu într-un graf orientat folosind o parcurgere DFS (depth-first search) și un vector de stări pentru a marca nodurile vizitate în timpul parcurgerii. 
@@ -32,7 +33,19 @@ După ce am terminat parcurgerea pentru toți vecinii lui u, nodul u este marcat
 * make -f Makefile- compilează sursele
 * make run-X - rulează problema cu numărul X (1,2,3) pentru toate testele din pbX_test si afiseaza "Ok" daca output-urile corespund sau "Bad" in caz contrar.
 * make clean
-* make run - ruleaza toate cele 3 probleme
+* make run - ruleaza toate cele 3 probleme 
+
+**Conținut arhivă**
+
+* pbX_tests - directoarele care conțin fișierele de test primite în cadrul temei (X = 1,2,3)
+* pbX_tests_out - directoarele care conțin fișierele de output pentru fiecare problemă (X = 1,2,3), care sunt comparate cu fișierele de ouptut care sunt așteptate (_.out) din directoarele pbX_tests
+* 1.cpp - rezolvarea problemei 1
+* 2.cpp - rezolvarea problemei 2
+* 3.cpp - rezolvarea problemei 3
+* Makefile
+* README.md
+
+În cazul în care doriți să testati pentru alte teste, trebuie să schimbați doar input_file , output_file și expected_output_file din fiecare fișier care conține codul pentru fiecare problemă (1.cpp, 2.cpp, 3.cpp).
 
 **Bibliografie**
 * https://ocw.cs.pub.ro/courses/pa/laboratoare/laborator-09
